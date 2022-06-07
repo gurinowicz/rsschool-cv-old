@@ -13,7 +13,7 @@ Self-taught frontend developer with a great comprehension of JavaScript, React.J
 https://github.com/gurinowicz/rssschool-cv
 
 **My goal**
-Is to get as much knowledge as possible, the ability to write concise algorithms, to study well js for employment as a frontend developer in a company.
+Is to get as much knowledge as possible, the ability to write concise algorithms, to study well js for employment as a frontend developer in a good company.
 
 **Education**
 * Belarussian State University
