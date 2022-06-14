@@ -107,7 +107,7 @@ body {
 .nav-link {
     padding: 0 20px;
     line-height: 50px;
-    transition: .3s;
+    transition: .5s;
 }
 
 .nav-item a:link {
