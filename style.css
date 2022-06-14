@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #505e49;
+    background-color: #e7e5e1;
+}
+
+.header,
+.footer {
+    background-color: #869886;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.section {
+    width: 50%;
+    padding: 20px;
+}
+
+.section-title {
+    letter-spacing: 5px;
+    background-color: #869886;
+    font-size: 16px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list, 
+.contacts-list,
+.footer-list {
+    list-style: none;
+}
+
+.skills-list,
+.courses-list,
+.education-list,
+.languages-list {
+    list-style: square;
+}
+
+.contacts-list {
+    line-height: 30px;
+}
+
+.contact-item {
+    line-height: 30px;
+}
+
+.nav-list,
+.footer-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-item a {
+    color: #e7e5e1;
+    text-decoration: none;
+    cursor: grab;
+    transition: color 0.5s;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .5s;
+}
+
+.nav-item a:link {
+    padding: 2px;
+    color: dimgray;
+}
+
+.nav-item a:hover {
+    color: #3a684f;
+}
+
+.my-photo {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.contact-item img {
+    width: 16px;
+}
+
+.github {
+    width: 40px;
+}
+
+.rsschool {
+    width: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.footer-icons {
+  display: flex;
+  margin: 0 auto;
+  padding: 0.3rem;
+  height: 1rem;
+  justify-content: space-between;
+  align-items: center;   
+}
